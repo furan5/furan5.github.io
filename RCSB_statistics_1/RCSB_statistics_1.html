@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>RCSB_statistics_1</title></head><body><big><big><span style="font-weight: bold;">Fun with the Protein Data Bank and Statistics</span></big></big><br>
+<br>
+<br>
+So... I'm in the lab today thinking about the distribution of amino acids in proteins (yes. very, very nerdy I must say). <br>
+<span></span>Actually,
+ there was some utility to this as some of my work involves 
+site-specific tagging of proteins. In particular, I was curious to know 
+the distribution of lysine residues among all proteins as this is one of
+ my favourite residues to label/tag. <br>
+<br>
+<span>Of course we don't 
+have sequences for all proteins in existence but we do know the sequence
+ for ~100,000 or so proteins (in just the Protein Data Bank alone).</span><br>
+<span>www.rcsb.org</span><br>
+<br>
+<span>I
+ will give a tutorial later on use and some nifty things you can do on 
+the PDB website. But for now, lets continue with the objective I set out
+ to do.</span><span> Find the distribution of lysine residues across all protein sequences published in the PDB. </span><br>
+<br>
+<span>It
+ was a bit of a hack job but I
+ basically mashed a bunch of awk one-liners together to achieve the 
+desired result (shown below). <br>
+<br>
+<img style="width: 414px; height: 242px;" alt="" src="screens/PDBstats1.png"><br>
+<br>
+As you can see, there are ~40,000 or so proteins (~40%) with less than
+5 lysine residues. Oddly, there is a bit of a spike at 11 lysines...<br>
+I plan to do more PDB statistics in the future.<br>
+</span>
+
+</body></html>
